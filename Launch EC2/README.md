@@ -5,6 +5,7 @@
 
 In the AWS Management Console on the Services menu, choose EC2.
 
+<img width="1337" height="449" alt="console" src="https://github.com/user-attachments/assets/5d760cb8-a46d-4f6a-875b-dbe26444ae2d" />
 
 
 In the left navigation pane, choose EC2 Dashboard to ensure that you are on the dashboard page.
