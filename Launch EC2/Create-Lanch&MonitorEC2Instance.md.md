@@ -166,11 +166,15 @@ This shows you what your Amazon EC2 instance console would look like if a screen
 
 ## **Challenges**
 
+![challenge](https://github.com/user-attachments/assets/32f78f24-9464-457e-bc2e-cb53b244ee79)
+
 * **Understanding AWS services and configurations** – Navigating the AWS Management Console for the first time required familiarizing myself with concepts like AMIs, instance types, VPCs, and security groups.
 * **Balancing security with accessibility** – Removing SSH access for better security meant relying entirely on automated User Data scripts, which needed to work perfectly on first run.
 * **Termination protection setup** – Ensuring that the feature was correctly enabled so the instance couldn’t be accidentally deleted added an extra layer of caution to the process.
 
 ## **Growth**
+
+![growth](https://github.com/user-attachments/assets/ba38d1c6-0b0c-4ddc-8ed0-6779fa0b424f)
 
 * **Hands-on experience with EC2 provisioning** – I learned how to launch, configure, and secure an Amazon EC2 instance from scratch.
 * **Improved cloud security awareness** – Gained an understanding of how security groups act as virtual firewalls and how to configure them for specific use cases.
@@ -178,6 +182,8 @@ This shows you what your Amazon EC2 instance console would look like if a screen
 * **Monitoring awareness** – Learned to use the EC2 Status Checks and CloudWatch metrics to monitor performance and system health.
 
 ## **Wins**
+
+![win](https://github.com/user-attachments/assets/e2242bb2-cc18-4b83-91a1-d61edd4631b6)
 
 * **Successfully launched a functional web server** – The instance displayed “Hello From Your Web Server!” exactly as intended.
 * **Achieved 2/2 status checks passed** – Verified the instance was fully operational and healthy.
