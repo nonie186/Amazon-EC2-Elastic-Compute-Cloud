@@ -1,6 +1,9 @@
 # Introduction-to-Cloud-Computing-EC2
 ## **1. What is Amazon EC2?**
 
+![ec2](https://github.com/user-attachments/assets/22aa4421-3780-4967-8e41-1e4468136a3f)
+
+
 Amazon EC2 (Elastic Compute Cloud) is **AWS’s virtual server service**.
 It lets you run applications on AWS infrastructure without buying physical servers. You choose:
 
