@@ -15,6 +15,8 @@ Choose Launch instance, and then select Launch instance.
 ## Step 1: Naming your EC2 instance
 When you name your instance, AWS creates a key value pair. The key for this pair is Name, and the value is the name you enter for your EC2 instance.
 
+<img width="869" height="582" alt="STEP 1  2" src="https://github.com/user-attachments/assets/c3539fce-cbb2-4e6a-ad38-e6e990a606ac" />
+
 In the Name and tags pane, in the Name text box, enter Web Server.
 
 ## Step 2: Choosing an Amazon Machine Image (AMI)
@@ -39,6 +41,8 @@ Select a t3.micro instance. This instance type has 2 virtual CPU and 1 GiB of me
 
 From the dropdown, select t3.micro.
 
+<img width="878" height="588" alt="STEP37 4" src="https://github.com/user-attachments/assets/c660438e-28e4-420d-9222-620509f18c1b" />
+
 NOTE: You may be restricted from using other instance types in this lab.
 
 ## Step 4: Configuring a key pair
@@ -49,6 +53,9 @@ In this lab, you do not log in to your instance, so you do not require a key pai
 In the Key pair (login) pane, select Proceed without a key pair (Not recommended).
 
 ## Step 5: Configuring the network settings 
+
+<img width="884" height="481" alt="step5" src="https://github.com/user-attachments/assets/82862f68-68f3-4f1d-9f5d-ec8faa1c6f1d" />
+
 You use this pane to configure networking settings.
 
 The VPC indicates which virtual private cloud (VPC) you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production.
@@ -72,12 +79,15 @@ In this lab, you will not log into your instance using SSH. Removing SSH access 
 ## Step 6: Adding storage
 Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic Block Store (Amazon EBS).
 
+<img width="848" height="240" alt="configure_storage" src="https://github.com/user-attachments/assets/186d9a09-1b6b-418f-9eb1-b1935b32c1e0" />
+
 You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume).
 
 In the Configure storage pane, keep the default storage configuration.
 
 ## Step 7: Configuring advanced details 
 Expand the Advanced details pane.
+
 
 Select the dropdown for Termination protection, then choose Enable.
 
@@ -105,6 +115,8 @@ Now that you have configured your EC2 instance settings, it is time to launch yo
 
 In the right pane, choose Launch instance
 
+<img width="407" height="396" alt="launch-instance" src="https://github.com/user-attachments/assets/e3f53b25-71df-4a03-9eb8-2a074b647f41" />
+
 Choose View all instances
 
 The instance appears in a Pending state, which means it is being launched. It then changes to Running, which indicates that the instance has started booting. There will be a short time before you can access the instance.
@@ -124,6 +136,8 @@ Note: Refresh if needed.
 Instance State:  Running
 
 Status Checks:   2/2 checks passed
+
+<img width="1347" height="343" alt="instancespage" src="https://github.com/user-attachments/assets/0cf65601-1980-46bf-a00d-8476bfa7cc2c" />
 
 ## Task 2: Monitor Your Instance
 Monitoring is an important part of maintaining the reliability, availability, and performance of your Amazon Elastic Compute Cloud (Amazon EC2) instances and your AWS solutions.
@@ -146,6 +160,7 @@ In the Actions  menu, select Monitor and troubleshoot  Get Instance Screenshot.
 
 This shows you what your Amazon EC2 instance console would look like if a screen were attached to it.
 
+<img width="1150" height="497" alt="monitoring" src="https://github.com/user-attachments/assets/21700005-25e6-498c-a6ee-89b2181e3166" />
 
 # The **challenges, growth, and wins** for your EC2 project in a clear, reflective way:
 
